@@ -19,6 +19,6 @@ questions:
   group: "App Configuration"
 - variable: env.configmap
   description: "All keys of the chosen ConfigMap will set as environment variables"
-  type: configMap
+  type: configmap
   label: "ConfigMap for environment variables"
   group: "App Configuration"
