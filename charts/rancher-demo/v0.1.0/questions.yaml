@@ -22,3 +22,8 @@ questions:
   type: config-map
   label: "ConfigMap for environment variables"
   group: "App Configuration"
+- variable: env.secret
+  description: "All keys of the chosen Secret will set as environment variables"
+  type: secret
+  label: "Secret for environment variables"
+  group: "App Configuration"
